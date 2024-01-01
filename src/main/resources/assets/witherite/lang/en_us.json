@@ -1,0 +1,19 @@
+{
+  "itemgroup.witherite": "Witherite",
+
+  "item.witherite.witherite_ingot": "Witherite Ingot",
+  "item.witherite.witherite_nugget": "Witherite Nugget",
+  "item.witherite.witherite_sword": "Witherite Sword",
+  "item.witherite.witherite_pickaxe": "Witherite Pickaxe",
+  "item.witherite.witherite_axe": "Witherite Axe",
+  "item.witherite.witherite_shovel": "Witherite Shovel",
+  "item.witherite.witherite_hoe": "Witherite Hoe",
+  "item.witherite.witherite_helmet": "Witherite Helmet",
+  "item.witherite.witherite_chestplate": "Witherite Chestplate",
+  "item.witherite.witherite_leggings": "Witherite Leggings",
+  "item.witherite.witherite_boots": "Witherite Boots",
+  "item.witherite.weak_witherite_helmet": "Weak Witherite Helmet",
+  "item.witherite.weak_witherite_chestplate": "Weak Witherite Chestplate",
+  "item.witherite.weak_witherite_leggings": "Weak Witherite Leggings",
+  "item.witherite.weak_witherite_boots": "Weak Witherite Boots"
+}

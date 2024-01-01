@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X X",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "witherite:witherite_nugget"
+    }
+  },
+  "result": {
+    "item": "witherite:weak_witherite_chestplate",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "witherite:witherite_helmet",
+    "witherite:witherite_chestplate",
+    "witherite:witherite_leggings",
+    "witherite:witherite_boots",
+    "witherite:weak_witherite_helmet",
+    "witherite:weak_witherite_chestplate",
+    "witherite:weak_witherite_leggings",
+    "witherite:weak_witherite_boots"
+  ]
+}

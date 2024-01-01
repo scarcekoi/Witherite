@@ -2,7 +2,10 @@ package net.fennec.witherite;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.fennec.witherite.item.ModItemGroups;
 import net.fennec.witherite.item.ModItems;
+import net.minecraft.item.ItemGroups;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,6 +15,8 @@ public class Witherite implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
 	}
 }

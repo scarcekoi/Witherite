@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "witherite:witherite_ingot"
+    }
+  ],
+  "result": {
+    "item": "witherite:witherite_nugget",
+    "count": 9
+  }
+}

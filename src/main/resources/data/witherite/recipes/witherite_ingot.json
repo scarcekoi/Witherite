@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X#X",
+    "XYX",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "witherite:witherite_ingot"
+    },
+    "X": {
+      "item": "minecraft:diamond_block"
+    },
+    "Y": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "item": "witherite:witherite_ingot",
+    "count": 1
+  }
+}
