@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "witherite",
+	"version": "${version}",
+	"name": "Witherite",
+	"description": "Adds a new material called 'Witherite'!",
+	"authors": [
+		"Fennec"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT License",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.fennec.witherite.Witherite"
+		],
+		"client": [
+			"net.fennec.witherite.WitheriteClient"
+		],
+		"fabric-datagen": [
+			"net.fennec.witherite.WitheriteDataGenerator"
+		]
+	},
+	"mixins": [
+		"witherite.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.3",
+		"minecraft": ">=1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*",
+		"modmenu": "*",
+		"sodium": "*"
+	}
+}
