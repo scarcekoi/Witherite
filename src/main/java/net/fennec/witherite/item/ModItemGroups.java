@@ -14,6 +14,7 @@ public class ModItemGroups {
     public static final ItemGroup WITHERITE = Registry.register(Registries.ITEM_GROUP,
             new Identifier(Witherite.MOD_ID, "witherite"), FabricItemGroup.builder().displayName(Text.translatable("itemgroup.witherite"))
                     .icon(() -> new ItemStack(ModItems.WITHERITE_INGOT)).entries((displayContext, entries) -> {
+                        entries.add(ModItems.WITHERITE_APPLE);
                         entries.add(ModItems.WITHERITE_INGOT);
                         entries.add(ModItems.WITHERITE_NUGGET);
                         entries.add(ModItems.WITHERITE_SWORD);

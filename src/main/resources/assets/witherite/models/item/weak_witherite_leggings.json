@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "witherite:item/weak_witherite_leggings"
-  }
-}

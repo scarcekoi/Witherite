@@ -2,7 +2,6 @@ package net.fennec.witherite.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
-import net.fennec.witherite.block.ModBlocks;
 import net.fennec.witherite.item.ModItems;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
@@ -21,6 +20,7 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
+        itemModelGenerator.register(ModItems.WITHERITE_APPLE, Models.GENERATED);
         itemModelGenerator.register(ModItems.WITHERITE_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.WITHERITE_NUGGET, Models.GENERATED);
 
